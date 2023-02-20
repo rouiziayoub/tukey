@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+* {
+  font-family: "Nunito", sans-serif;
+}
+:root {
+  --love: #dc0a16;
+}
+.rca .wac {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 50px;
+}
+.rca {
+  margin-left: 70px;
+}
+.rca .navbar-nav {
+  text-transform: uppercase;
+  font-size: 0.88em;
+  font-weight: 580;
+  color: #000;
+}
+.rca .navbar-nav .nav-item .nav-link.active {
+  color: var(--love);
+}
+.rca .navbar-nav .nav-item .nav-link:hover {
+  color: var(--love);
+}
+.group-icon {
+  margin-left: 80px;
+  margin-bottom: -17px;
+}
+.list-inline .list-icon {
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 50%;
+  border: 1px solid var(--love);
+}
+.list-inline .list-icon.active {
+  background-color: var(--love);
+}
+.list-inline .list-icon.active i {
+  color: #fff;
+}
+.list-inline .list-icon i {
+  color: var(--love);
+}
+.img {
+  background-image: url("image/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0;
+}
+main .img::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(15 23 42 / 0.5) !important;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+main .img .img-a {
+  padding: 100px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+main .img .img-a .row .row-col h1 {
+  text-transform: capitalize;
+  font-size: 3em;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.row-col {
+  width: calc(45%);
+}
+.img .row-col:nth-child(1) {
+  width: 50%;
+  margin-top: -20px;
+}
+.img .row-col:nth-child(2) {
+  margin-top: -55px;
+}
+.btn-danger {
+  cursor: pointer;
+  box-shadow: rgba(7, 7, 15, 0.25) 0px 6px 12px -2px;
+}
+.form-group {
+  width: 350px;
+  background-color: #fff;
+  color: #000;
+  padding: 15px;
+  border-radius: 5px;
+  border-top: 6px solid var(--love);
+}
+.form-group p {
+  color: #4d4b4b;
+}
+.form-group form > div {
+  margin: 20px 0;
+  position: relative;
+}
+.form-group .col label {
+  display: block;
+  margin-bottom: 7px;
+}
+.form-group .col input {
+  width: 88%;
+}
+form input .amount {
+  width: 86%;
+  padding-left: 40px !important;
+}
+.form-group form select {
+  width: 98%;
+}
+.form-group form input,
+select {
+  padding: 9px;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  outline: none;
+}
+.form-group form input::placeholder {
+  font-size: 1.2em;
+}
+.dhj {
+  color: #fff;
+  margin: 0 0;
+  background-color: var(--love);
+}
+
+.dhj .row .col p {
+  font-size: 0.89em;
+}
+.about {
+  width: 500px;
+  height: 500px;
+  background-position: center;
+  border-radius: 50%;
+  border-left: 3px solid var(--love);
+}
+.row .cols-md-4 .card {
+  margin-left: 12;
+}
+.video {
+  background-image: url("image/cta.png");
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  background-repeat: no-repeat;
+  background-position: top !important;
+  background-size: cover !important;
+  width: 100%;
+  display: table;
+  position: relative !important;
+}
+.absolute {
+  position: absolute;
+  top: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  background-color: rgb(15 23 42 / 0.7) !important;
+}
+.relative {
+  position: relative !important;
+}
+.grid {
+  text-align: center;
+  display: grid !important;
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+.rounded-full {
+  border-radius: 50%;
+  padding: 15px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: #fff;
+  color: var(--love);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+.ayou {
+  border-radius: 100%;
+}
+.lien {
+  font-size: 1.25em;
+  color: #000;
+  text-decoration: none;
+  padding-left: 35px;
+}
+.text-body-tertiary {
+  margin-left: 40px;
+}
+.ayoub {
+  margin-left: -2px;
+}
+.card-body .card-title {
+  text-decoration: none;
+}
+.lien:hover,
+.card-body .card-title:hover {
+  color: var(--love);
+}
+.footer-contac {
+  position: relative;
+  background-color: #192132;
+}
+.py-\[60px\] {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.causes {
+  padding: 50px 120px;
+}
+
+.causes .causes-content {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.causes .causes-content h3 {
+  font-size: 1.7em;
+}
+
+.causes .row-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.causes .row-content .col-3 {
+  width: calc(90% / 3);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.causes .row-content .col-3:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: translateY(-5px);
+}
+
+.causes .row-content .col-3 .images {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.causes .row-content .col-3 .content {
+  padding: 10px 15px;
+}
+
+.causes .row-content .col-3 .content h6 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.causes .row-content .col-3 .progress {
+  width: 100%;
+  border-bottom: 8px solid #f3f4f6;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.causes .row-content .col-3 .progress span {
+  display: block;
+  width: 45%;
+  position: absolute;
+  border-bottom: 8px solid var(--love);
+  border-radius: 5px;
+}
+
+.causes p {
+  color: #a89a9a;
+  margin: 10px 0;
+}
+.col-content .content-donate {
+  text-align: center;
+  background-color: rgba(220, 10, 22, 0.6);
+  position: absolute;
+  bottom: 230px;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+}
+.btn {
+  box-shadow: rgb(7 7 15 / 25%) 0px 6px 12px -2px,
+    rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+  cursor: pointer;
+}
+.row-progress,
+.row-span {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
